@@ -82,6 +82,7 @@ h1, h2, h3, p, a {
 
 .intro__title {
 	margin-bottom: 30px;
+	max-width: 956px;
 	font-size: 60px;
 	line-height: 60px;
 	color: #121212;
@@ -100,7 +101,7 @@ h1, h2, h3, p, a {
 		position: absolute;
 		left: 40px;
 		bottom: 40px;
-		width: 430px;
+		max-width: 430px;
 		text-align: left;
 		font-size: 20px;
 		line-height: 27px;
@@ -134,8 +135,8 @@ h1, h2, h3, p, a {
 /* About */
 
 .about__text {
-	width: 1048px;
-	height: 366px;
+	max-width: 1048px;
+	/* height: 366px; */
 	font-size: 45px;
 	line-height: 61px;
 	color: #121212;
