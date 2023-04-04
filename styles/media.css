@@ -128,4 +128,24 @@
 		line-height: 22px;
 	}
 
+	.reviews {
+		flex-direction: column;
+		gap: 80px;
+	}
+
+	.review,
+	.review:last-child:nth-child(2n + 1) {
+		width: 100%;
+	}
+
+	.review__title {
+		margin-bottom: 10px;
+		font-size: 25px;
+		line-height: 34px;
+	}
+
+	.review__text {
+		font-size: 16px;
+		line-height: 21px;
+	}
 }
