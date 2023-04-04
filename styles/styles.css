@@ -288,6 +288,10 @@ h1, h2, h3, p, a {
 }
 /* Reviews */
 
+.section__title--review {
+	padding-top: 150px;
+}
+
 .reviews {
 	display: flex;
 	flex-wrap: wrap;
