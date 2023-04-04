@@ -264,6 +264,7 @@ h1, h2, h3, p, a {
 	color: #fff;
 }
 
+<<<<<<< HEAD
 .btn {
 	margin-top: 106px;
 	background-color: #AD1818;
@@ -286,6 +287,9 @@ h1, h2, h3, p, a {
 	background-color: #fff;
 	color: #AD1818;
 }
+=======
+
+>>>>>>> bdc7926d433c620e53562fd301d2bf91dbf2d55f
 /* Reviews */
 
 .reviews {
@@ -312,6 +316,10 @@ h1, h2, h3, p, a {
 	font-size: 22px;
 	line-height: 30px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bdc7926d433c620e53562fd301d2bf91dbf2d55f
 /* Fullscreen */
 
 .fullscreen__img {
