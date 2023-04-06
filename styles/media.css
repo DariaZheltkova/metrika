@@ -32,6 +32,28 @@
 		line-height: 34px;
 	}
 
+	.gallery__title__wrapper {
+		top: 80px;
+	}
+
+	.gallery__title {
+		font-size: 20px;
+		line-height: 27px;
+	}
+
+	.gallery__slides,
+	.gallery__img {
+		height: 536px;
+	}
+
+	.gallery__text {
+		font-size: 25px;
+		line-height: 34px;
+	}
+
+	.gallery__controls__wrapper {
+		bottom: 152px;
+	}
 }
 
 /* @media (max-width: 991px) {
