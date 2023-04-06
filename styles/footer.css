@@ -1,0 +1,37 @@
+.footer {
+	padding: 60px 0 30px;
+	background-color: #121212;
+}
+
+.footer__nav {
+	margin-bottom: 87px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__nav__link {
+	margin-right: 55px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.footer__nav__link:hover {
+	opacity: .5;
+}
+
+.footer__nav__link:last-child {
+	margin-right: 0;
+}
+
+.copyright_text {
+	font-size: 20px;
+	line-height: 27px;
+	color: #fff;
+	opacity: .5;
+	text-align: center;
+}

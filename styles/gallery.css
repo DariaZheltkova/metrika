@@ -1,0 +1,91 @@
+.gallery {
+	position: relative;
+}
+
+.gallery__title__wrapper {
+	position: absolute;
+	top: 60px;
+	z-index: 100;
+	width: 100%;
+}
+
+.gallery__title {
+	font-size: 22px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.gallery__slides {
+	position: relative;
+  height: 717px;
+}
+
+.gallery__slide {
+	position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.gallery__slide_active {
+	opacity: 1;
+}
+
+.gallery__img {
+	position: relative;
+  width: 100%;
+  height: 717px;
+}
+
+.gallery__text__wrapper {
+	position: absolute;
+	bottom: 60px;
+	width: 100%;
+	height: 82px;
+}
+
+.gallery__text {
+	font-size: 30px;
+	line-height: 41px;
+	color: #fff;
+	width: 443px;
+}
+
+.gallery__controls__wrapper {
+	position: absolute;
+	bottom: 162px;
+	width: 100%;
+}
+
+.gallery__controls {
+	display: flex;
+	column-gap: 14px;
+	
+}
+
+.gallery__control-prev,
+.gallery__control-next {
+	background: 0;
+	border: 0;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	transition: opacity .2s ease-in;
+	cursor: pointer;
+}
+
+.gallery__control-prev {
+	background: url(../img/galley/control_prev.png) no-repeat center;
+}
+
+.gallery__control-next {
+		background: url(../img/galley/controls_next.png) no-repeat center;
+	}
+
+.gallery__control-prev:hover,
+.gallery__control-next:hover {
+	opacity: .5;
+}

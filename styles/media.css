@@ -190,4 +190,43 @@
 		font-size: 16px;
 		line-height: 21px;
 	}
+
+	.gallery__title__wrapper {
+		top: 61px;
+	} 
+
+	.gallery__title  {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.gallery__slides,
+	.gallery__img {
+		height: 408px;
+	}
+
+	.gallery__controls__wrapper {
+		bottom: 189px;
+	}
+
+	.gallery__controls {
+		justify-content: space-between;
+	}
+
+	.gallery__control-prev,
+	.gallery__control-next {
+		width: 30px;
+		height: 30px;
+	}
+
+	.gallery__text__wrapper {
+		bottom: 30px;
+	}
+
+	.gallery__text {
+		font-size: 19px;
+		line-height: 25px;
+		width: 287px;
+		height: 52px;
+	}
 }

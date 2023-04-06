@@ -1,0 +1,41 @@
+.contacts__icon::before {
+	content: "";
+	display: block;
+	margin-bottom: 11px;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	bottom: 100%;
+	left: -4px;
+	background: url(../img/tel.svg) no-repeat center;
+}
+
+.mb {
+	margin-bottom: 32px;
+}
+
+.contact__info {
+	margin-bottom: 30px;
+}
+
+.contact__info:last-child {
+	margin-bottom: 0;
+}
+
+.contact__info-phone,
+.contact__info-email {
+	font-size: 60px;
+	line-height: 60px;
+	text-decoration: none;
+	color: #121212;
+}
+
+.contact__info-phone {
+	letter-spacing: -0.9px;
+}
+
+.contact__info-email {
+	border-bottom: 2px solid #121212;
+	opacity: .5;
+	letter-spacing: -1.8px;
+}
