@@ -229,4 +229,26 @@
 		width: 287px;
 		height: 52px;
 	}
+
+	.footer {
+		padding: 30px 0 26px;
+	}
+
+	.footer__nav {
+		margin-bottom: 41px;
+	}
+
+	.footer__nav__link {
+		font-size: 12px;
+		line-height: 16px;
+		margin-right: 30px;
+	}
+	.footer__nav__link:last-child {
+		margin-right: 0;
+	}
+
+	.footer__copyright {
+		font-size: 13px;
+		line-height: 17px;
+	}
 }

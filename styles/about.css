@@ -1,0 +1,26 @@
+.about__text {
+	max-width: 1048px;
+	/* height: 366px; */
+	font-size: 45px;
+	line-height: 61px;
+	color: #121212;
+	margin-bottom: 30px;
+}
+
+.about__btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	line-height: 27px;
+	background-color: #AD1818;
+	padding: 20px 40px;
+	transition: background-color .2s linear;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: -0.6px;
+}
+
+.about__btn:hover {
+	background-color: #e01c1c;
+}

@@ -12,11 +12,12 @@
 
 .footer__nav__link {
 	margin-right: 55px;
-	text-decoration: none;
+	display: block;
 	font-size: 18px;
 	line-height: 25px;
 	color: #fff;
 	text-transform: uppercase;
+	text-decoration: none;
 	text-align: center;
 }
 
@@ -28,7 +29,7 @@
 	margin-right: 0;
 }
 
-.copyright_text {
+.footer__copyright {
 	font-size: 20px;
 	line-height: 27px;
 	color: #fff;

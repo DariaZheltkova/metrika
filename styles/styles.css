@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(intro.css);
+@import url(about.css);
 @import url(projects.css);
 @import url(services.css);
 @import url(reviews.css);
@@ -46,10 +47,6 @@ h1, h2, h3, p, a {
 	background-color: #121212;
 }
 
-.section--contacts {
-	padding: 186px 0 160px;
-}
-
 .section__title {
 	position: relative;
 	font-size: 18px;
@@ -62,35 +59,6 @@ h1, h2, h3, p, a {
 .services__title {
 	margin-bottom: 34px;
 	color: #fff;
-}
-
-/* About */
-
-.about__text {
-	max-width: 1048px;
-	/* height: 366px; */
-	font-size: 45px;
-	line-height: 61px;
-	color: #121212;
-	margin-bottom: 30px;
-}
-
-.about__btn {
-	display: inline-block;
-	text-decoration: none;
-	color: #fff;
-	font-size: 20px;
-	line-height: 27px;
-	background-color: #AD1818;
-	padding: 20px 40px;
-	transition: background-color .2s linear;
-	border-radius: 5px;
-	cursor: pointer;
-	letter-spacing: -0.6px;
-}
-
-.about__btn:hover {
-	background-color: #e01c1c;
 }
 
 .btn {
@@ -121,25 +89,4 @@ h1, h2, h3, p, a {
 	padding-top: 150px;
 }
 
-
-/* Fullscreen */
-
-.fullscreen__img {
-	position: relative;
-	background: url(../img/bg.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 717px;
-}
-
-.fullscreen__img-text {
-	position: absolute;
-	left: 125px;
-	bottom: 60px;
-	width: 443px;
-	font-size: 30px;
-	line-height: 41px;
-	color: #fff;
-}
 
