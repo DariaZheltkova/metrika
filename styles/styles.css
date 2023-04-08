@@ -56,6 +56,11 @@ h1, h2, h3, p, a {
 	margin-bottom: 30px;
 }
 
+.section__title--contacts {
+	margin-bottom: 24px;
+	color: #000;
+}
+
 .services__title {
 	margin-bottom: 34px;
 	color: #fff;
