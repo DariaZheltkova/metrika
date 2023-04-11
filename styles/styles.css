@@ -19,9 +19,12 @@ html {
 }
 
 body {
-	max-width: 100%;
 	font-family: 'Manrope', sans-serif;
 	font-weight: 400;
+}
+
+.body__fixed {
+	overflow: hidden;
 }
 
 h1, h2, h3, p, a {
