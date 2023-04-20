@@ -57,6 +57,15 @@
 	text-decoration: none;
 	color: #000;
 	text-transform: uppercase;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.burger__nav-link:hover,
+.burger__nav-link:active,
+.burger__nav-link:focus {
+	outline: none;
+	opacity: .7;
+	background-color: transparent;
 }
 
 .burger__contacts {
