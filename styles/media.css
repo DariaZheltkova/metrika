@@ -54,6 +54,10 @@
 	.gallery__controls__wrapper {
 		bottom: 152px;
 	}
+
+
+	
+
 }
 
 @media (max-width: 991px) {
@@ -61,7 +65,7 @@
 		display: none;
 	}
 
-	.burger__btn {
+	/* .burger__btn {
 		display: block;
 		position: absolute;
 		right: 20px;
@@ -105,7 +109,7 @@
 	.burger__logo {
 		width: 156px;
 		margin-bottom: 50px;
-	}
+	} */
 
 	
 }
