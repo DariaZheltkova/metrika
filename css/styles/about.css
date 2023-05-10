@@ -1,6 +1,5 @@
 .about__text {
 	max-width: 1048px;
-	/* height: 366px; */
 	font-size: 45px;
 	line-height: 61px;
 	color: #121212;
@@ -21,6 +20,32 @@
 	letter-spacing: -0.6px;
 }
 
-.about__btn:hover {
+.about__btn:hover,
+.about__btn:active,
+.about__btn:focus {
+	outline: none;
 	background-color: #e01c1c;
 }
+
+@media (max-width: 1199px) {
+	.about__text {
+		width: 690px;
+		font-size: 35px;
+		line-height: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.about__text {
+		width: 100%;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.about__btn {
+		padding: 14px 27px;
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+

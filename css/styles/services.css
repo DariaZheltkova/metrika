@@ -8,15 +8,7 @@
 .services__item {
 	position: relative;
 	width: calc(50% - 5px);
-	/* width: calc(50%-11px); */
-	/* margin-bottom: 60px; */
 }
-
-/* .services__item:last-child {
-	margin-bottom: 0;
-} */
-
-
 
 .services__img {
 	margin-bottom: 25px;
@@ -47,4 +39,39 @@
 	background-color: #AD1818;
 	color: #fff;
 	border-radius: 5px;
+}
+
+@media(max-width: 991px) {
+	.services__img {
+		height: 315px;
+	}
+}
+
+@media (max-width: 600px) {
+	.services {
+		flex-direction: column;
+		row-gap: 60px;
+	}
+
+	.services__item {
+		width: 100%;
+	}
+
+	.services__img {
+		margin-bottom: 10px;
+		height: 240px;
+	}
+
+	.services__text {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.services__price {
+		padding: 6px 24px;
+		top: 23px;
+		left: 24px;
+		font-size: 14px;
+		line-height: 19px;
+	} 
 }

@@ -1,0 +1,108 @@
+@import url(styles/header.css);
+@import url(styles/nav.css);
+@import url(styles/burger.css);
+@import url(styles/intro.css);
+@import url(styles/about.css);
+@import url(styles/projects.css);
+@import url(styles/button.css);
+@import url(styles/services.css);
+@import url(styles/reviews.css);
+@import url(styles/gallery.css);
+@import url(styles/contacts.css);
+@import url(styles/footer.css);
+@import url(styles/modal.css);	
+@import url(styles/order.css);	
+@import url(styles/input.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 400;
+}
+
+.body__fixed {
+	overflow: hidden;
+}
+
+h1, h2, h3, p, a {
+	letter-spacing: -0.03em;
+}
+
+/* Container */
+
+.container {
+	max-width: 1151px;
+	margin: 0 auto;
+}
+
+/* Section */
+
+.section {
+	padding-bottom: 150px;
+}
+
+.section--black {
+	padding: 150px 0;
+	background-color: #121212;
+}
+
+.section__title {
+	/* position: relative; */
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #121212;
+	margin-bottom: 30px;
+}
+
+.section__title--contacts {
+	margin-bottom: 24px;
+	color: #000;
+}
+
+.services__title {
+	margin-bottom: 34px;
+	color: #fff;
+}
+
+.section__title--review {
+	padding-top: 150px;
+}
+
+@media (max-width: 1199px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+
+	.section {
+		padding-bottom: 120px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding: 0 13px;
+	}
+
+	.section {
+		padding-bottom: 80px;
+	}
+
+	.section__title {
+		margin-bottom: 20px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+	
+}
+
