@@ -27,7 +27,7 @@
 	background-color: #e01c1c;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
 	.about__text {
 		width: 690px;
 		font-size: 35px;

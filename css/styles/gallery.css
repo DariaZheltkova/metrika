@@ -91,7 +91,7 @@
 	opacity: .5;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
 	.gallery__title__wrapper {
 		top: 80px;
 	}

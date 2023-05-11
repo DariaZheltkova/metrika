@@ -1,8 +1,8 @@
 .btn {
-	/* padding: 56px 125px; */
+	padding: 56px 125px;
 	font-family: 'Manrope', sans-serif;
 	font-size: 30px;
-	line-height: 150px;
+	line-height: 41px;
 	display: block;
 	text-decoration: none;
 	text-align: center;
@@ -39,8 +39,9 @@
 }
 
 .btn__small {
+	padding: 20px 0;
 	margin-top: 80px;
-	line-height: 63px;
+	line-height: 27px;
 	font-size: 20px;
 }
 
@@ -53,5 +54,9 @@
 
 	.btn__inverted {
 		margin-top: 60px;
+	}
+
+	.btn__small {
+		padding: 20px 0;
 	}
 }

@@ -34,7 +34,7 @@
 	text-decoration: underline;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
 	.project__img {
 		width: 100%;
 		object-fit: cover;
