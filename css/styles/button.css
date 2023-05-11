@@ -46,9 +46,9 @@
 
 @media (max-width: 767px) {
 	.btn {
-		padding: 36px 0 37px 0;
+		padding: 37px 0;
 		font-size: 22px;
-		line-height: 30px;
+		line-height: 30.05px;
 	}
 
 	.btn__inverted {
